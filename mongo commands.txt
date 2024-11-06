@@ -1,0 +1,7 @@
+Commands on the Mongo Shell
+
+db.users.insertOne({"name": "test", "email":"test","age": 25});
+db.users.insertMany([
+  { name: "John", age: 30 },
+  { name: "Jane", age: 25 }
+])
